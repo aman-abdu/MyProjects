@@ -1,10 +1,8 @@
 # Olympics Data engineering and analysis project
 
-This is a template you can use for your next data engineering portfolio project. To copy it, log into GitHub and click on the **Use this template** button above.
-
 ## Overview
 
-Here you want to write a short overview of the goals of your project and how it works at a high level. If possible, include one or two images of the end product and architecture diagram (see examples below). diagrams.net is a great tool for creating architecture diagrams.
+In this Data Engineering Project, we have a data set of Olympic Sports from 2021 (Data source) and storing that data into Azure as raw data and perform the necessary Transformation and store teh transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
 
 ### End-to-End Data Pipeline
 
