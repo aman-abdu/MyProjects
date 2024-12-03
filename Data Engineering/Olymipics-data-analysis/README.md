@@ -2,17 +2,19 @@
 
 This is a template you can use for your next data engineering portfolio project. To copy it, log into GitHub and click on the **Use this template** button above.
 
-![GitHub use this template button](snip1.png)
-
-![GitHub use this template button](snip2.png)
-
 ## Overview
 
 Here you want to write a short overview of the goals of your project and how it works at a high level. If possible, include one or two images of the end product and architecture diagram (see examples below). diagrams.net is a great tool for creating architecture diagrams.
 
+### End-to-End Data Pipeline
+
+![GitHub use this template button](snip3.png)
+
 ### Data Visualization
 
-![Example dashboard image](example-dashboard.png)
+![GitHub use this template button](snip1.png)
+
+![GitHub use this template button](snip2.png)
 
 ### Data Architecture
 
