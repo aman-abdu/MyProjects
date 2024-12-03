@@ -16,7 +16,7 @@ In this Data Engineering Project, we have a data set of Olympic Sports from 2021
 
 ### Data Architecture
 
-![Example architecture image](example-architecture.png)
+![Example architecture image](arch.png)
 
 If you decide to include this, you should also talk a bit about why you chose the architecture and tools you did for this project.
 
