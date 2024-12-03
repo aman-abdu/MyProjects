@@ -8,18 +8,16 @@ In this Data Engineering Project, we have a data set of Olympic Sports from 2021
 
 Directions or anything needed before running the project.
 
-- Prerequisite 1
-- Prerequisite 2
-- Prerequisite 3
+- Basic Knowledge on SQL and Python/PySpark
+- Azure Account
+- Good to have basic understanding about Azure Services
 
 ## How to Run This Project
 
-Replace the example step-by-step instructions with your own.
+Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
 
-1. Install x packages
-2. Run command: `python x`
-3. Make sure it's running properly by checking z
-4. To clean up at the end, run script: `python cleanup.py`
+1. Place the data source in Github repositoy
+2. Setup Azure account (Free trial with credits)
 
 ### Data Architecture
 
