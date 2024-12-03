@@ -21,6 +21,12 @@ Replace the example step-by-step instructions with your own.
 3. Make sure it's running properly by checking z
 4. To clean up at the end, run script: `python cleanup.py`
 
+### Data Architecture
+
+![Example architecture image](arch.png)
+
+If you decide to include this, you should also talk a bit about why you chose the architecture and tools you did for this project.
+
 ### End-to-End Data Pipeline
 
 ![GitHub use this template button](snip3.png)
@@ -30,12 +36,6 @@ Replace the example step-by-step instructions with your own.
 ![GitHub use this template button](snip1.png)
 
 ![GitHub use this template button](snip2.png)
-
-### Data Architecture
-
-![Example architecture image](arch.png)
-
-If you decide to include this, you should also talk a bit about why you chose the architecture and tools you did for this project.
 
 ## Lessons Learned
 
