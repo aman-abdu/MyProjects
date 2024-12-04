@@ -27,13 +27,13 @@ As per above Architecture, we have data source placed in Github repostiry, from 
 
 ### End-to-End Data Pipeline
 
-![GitHub use this template button](snip3.png)
+![alt-pipeline-image](snip3.png)
 
 ### Data Visualization
 
-![GitHub use this template button](snip1.png)
+![alt-data-visuaization](snip1.png)
 
-![GitHub use this template button](snip2.png)
+![alt-data-visuaization](snip2.png)
 
 ## Lessons Learned
 
