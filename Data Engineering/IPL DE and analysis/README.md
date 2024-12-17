@@ -1,4 +1,4 @@
-# Olympics Data engineering and analysis project
+# IPL Data Set Analysis Project
 
 ## Overview
 
