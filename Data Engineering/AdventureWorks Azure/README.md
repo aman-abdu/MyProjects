@@ -32,9 +32,9 @@ As per above Architecture, we have data source placed on premise SQL Server data
 
 ![alt-data-visuaization](images/snip2.png)
 
-![alt-data-visuaization](images/snip3.png)
-
 ![alt-data-visuaization](images/snip4.png)
+
+![alt-data-visuaization](images/snip3.png)
 
 ## Lessons Learned
 
