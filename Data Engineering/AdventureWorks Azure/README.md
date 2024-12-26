@@ -20,7 +20,7 @@ Since this Project is compeletly cloud based, we don't need to any Program/Softw
 
 ### Data Architecture
 
-![Example architecture image](images/arch.png)
+![Example architecture image](images/architecture.png)
 
 As per above Architecture, we have data source placed on premise SQL Server database, from there we make use Azure Data factory to get the data into Azure and copy into Azure Data lake storage, where same raw data first ingested into a bronze layer, then transformed into a silver layer, and then finally converted into a gold layer using Azure Databricks. Once the data is fully transformed and organized, it will be loaded into Azure Synapse Analytics, mirroring the original SQL database structure, using Synapse Analytics we can perform some analytics using SQL queries,and we can create dashboards in Visualization tools like Power BI.
 
