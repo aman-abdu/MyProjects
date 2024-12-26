@@ -26,13 +26,15 @@ As per above Architecture, we have data source placed on premise SQL Server data
 
 ### End-to-End Data Pipeline
 
-![alt-pipeline-image](images/snip3.png)
+![alt-pipeline-image](images/snip1.png)
 
 ### Data Visualization
 
-![alt-data-visuaization](images/snip1.png)
-
 ![alt-data-visuaization](images/snip2.png)
+
+![alt-data-visuaization](images/snip3.png)
+
+![alt-data-visuaization](images/snip4.png)
 
 ## Lessons Learned
 
