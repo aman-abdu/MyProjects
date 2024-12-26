@@ -13,10 +13,8 @@ Directions or anything needed before running the project.
 
 ## How to Run This Project
 
-Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
-
-1. Place the data source in Github repositoy
-2. Setup Azure account (Free trial with credits)
+1. Import the Dataset into the database
+2. Verify that dataset are imported successfully, good to start with scenarios
 
 ### Entiry-Relation Diagram (ER Diagram)
 
