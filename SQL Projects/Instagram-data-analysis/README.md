@@ -1,16 +1,15 @@
-# Olympics Data engineering and analysis project
+# Instagram Data Analysis using SQL 
 
 ## Overview
 
-In this Data Engineering Project, we have a data set of Olympic Sports from 2021 (Data source) and storing that data into Azure as raw data and perform the necessary Transformation and store the transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
+In this  Project, we have a data set of Instagram Data as (Data source) and we will perfrom some real-world scenarios and challenges to derive actionable insights.
 
 ## Prerequisites
 
 Directions or anything needed before running the project.
 
-- Basic Knowledge on SQL and Python/PySpark
-- Azure Account
-- Good to have basic understanding about Azure Services
+- Any RDBMS database tool
+- Good Knowledge in SQL programming
 
 ## How to Run This Project
 
@@ -19,21 +18,10 @@ Since this Project is compeletly cloud based, we don't need to any Program/Softw
 1. Place the data source in Github repositoy
 2. Setup Azure account (Free trial with credits)
 
-### Data Architecture
+### Entiry-Relation Diagram (ER Diagram)
 
 ![Example architecture image](images/arch.png)
 
-As per above Architecture, we have data source placed in Github repostiry, from there we ingest data into data alke storage using Azure Data factory by creating pipleines here we loading data as raw data, then we use Azure databricks to do soe basic transformation and clean the data. then we load transformed data/cleansed data to azure data lake storage. then we use Azure synapse analytics to get the clean data and perform some analytics using SQL queries, so we can create dashboards in Data analysis tools like Power BI or Tableau
-
-### End-to-End Data Pipeline
-
-![alt-pipeline-image](images/snip3.png)
-
-### Data Visualization
-
-![alt-data-visuaization](images/snip1.png)
-
-![alt-data-visuaization](images/snip2.png)
 
 ## Lessons Learned
 
