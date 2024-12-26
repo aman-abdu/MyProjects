@@ -1,8 +1,8 @@
-# IPL Data Set Analysis Project
+# IPL DataSet Analysis Project
 
 ## Overview
 
-In this Data Engineering Project, we have a IPL Data ser from 2017 (Data source) and storing that data into AWS S3 as raw data and perform the necessary Transformation and and do some SQL analysis in Databricks, then we can do the some Visualization/Analytics/analysis of the transformed data.
+In this Data Engineering Project, we have a IPL Dataset from 2017 (Data source) and storing that data into AWS S3 as raw data and perform the necessary Transformation and and do some SQL analysis in Databricks using sparkSQL, then we can do the some Visualization/visaul analysis of the transformed data.
 
 ## Prerequisites
 
