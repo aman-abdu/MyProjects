@@ -10,7 +10,7 @@ Directions or anything needed before running the project.
 
 - Basic Knowledge on SQL and Python/PySpark
 - Databricks account
-- Storage Repository like github (optional)
+- Storage Repository like AWS S3, github (optional)
 
 ## How to Run This Project
 
@@ -23,7 +23,7 @@ Since this Project is compeletly cloud based, we don't need to any Program/Softw
 
 ![Example architecture image](Images/Architecture.png)
 
-As per above Architecture, we have data source placed in Github repostiry, from there we ingest data into data alke storage using Azure Data factory by creating pipleines here we loading data as raw data, then we use Azure databricks to do soe basic transformation and clean the data. then we load transformed data/cleansed data to azure data lake storage. then we use Azure synapse analytics to get the clean data and perform some analytics using SQL queries, so we can create dashboards in Data analysis tools like Power BI or Tableau
+As per above Architecture, we have data source placed in AWS S3 bucket, from there we ingest data into databricks notebook so that we can get access to data source in order to perfrom transformations. we will do transoformation using python API called PySpark and then using trasnformed data we can use SQL analysis as per some scenarios we can do some Analytics as well to get Visualization representation or to create a dashboard
 
 ### Data Visualization
 
