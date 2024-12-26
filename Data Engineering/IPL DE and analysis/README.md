@@ -9,8 +9,8 @@ In this Data Engineering Project, we have a IPL Data ser from 2017 (Data source)
 Directions or anything needed before running the project.
 
 - Basic Knowledge on SQL and Python/PySpark
-- Azure Account
-- Good to have basic understanding about Azure Services
+- Databricks account
+- Storage Repository like github (optional)
 
 ## How to Run This Project
 
