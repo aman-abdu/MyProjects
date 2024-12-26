@@ -20,7 +20,7 @@ Since this Project is compeletly cloud based, we don't need to any Program/Softw
 
 ### Entiry-Relation Diagram (ER Diagram)
 
-![Example architecture image](images/arch.png)
+![Example architecture image](insta-data-analysis-ER_Diagram.png)
 
 
 ## Lessons Learned
