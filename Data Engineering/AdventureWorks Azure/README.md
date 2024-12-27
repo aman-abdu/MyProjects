@@ -1,4 +1,4 @@
-# Olympics Data engineering and analysis project
+# Data engineering and analysis project using Azure
 
 ## Overview
 
