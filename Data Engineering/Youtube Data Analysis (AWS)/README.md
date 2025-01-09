@@ -37,6 +37,8 @@ We can't directly fetch the data from catalog, since the raw JSON data are in mu
 
 ![alt-pipeline-image](images/etl_pipeline.png)   
 
+Once we perfrom the joining hte cleaned data tables, we then place the result dataset into final S3 bucket as Analytical/reporting version of data. from this we will then create dashboard using AWS Quicksight as shown below section.
+
 ### Data Visualization
 
 ![alt-data-visuaization](images/dashboard.png)
