@@ -43,7 +43,6 @@ Once we perfrom the joining hte cleaned data tables, we then place the result da
 
 ![alt-data-visuaization](images/dashboard.png)
 
-![alt-data-visuaization](images/snip2.png)
 
 ## Lessons Learned
 
