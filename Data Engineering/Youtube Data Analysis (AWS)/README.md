@@ -3,10 +3,11 @@
 ## Overview
 
 In this Data Engineering Project, we have a data set of Youtube data for a particular year and storing that into AWS S3 as data source. we are using S3 for storage and transformed data storage with 3 different stages. Finally once the raw data transformed full we will make use Athena to get SQL analytical insights and quickSight to build a dashboard.  
-          In this Project we can learn about
-              - Building data lake from scratch
-              - understand data lake and data warehouse
-              - Good to have basic understanding about Azure Service
+In this Project we can learn about
+
+- Building data lake from scratch
+- understand data lake and data warehouse
+- Good to have basic understanding about AWS Services
 
 ## Prerequisites
 
