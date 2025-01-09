@@ -2,22 +2,25 @@
 
 ## Overview
 
-In this Data Engineering Project, we have a data set of Olympic Sports from 2021 (Data source) and storing that data into Azure as raw data and perform the necessary Transformation and store the transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
+In this Data Engineering Project, we have a data set of Youtube data for a particular year and storing that into AWS S3 as data source. we are using S3 for storage and transformed data storage with 3 different stages. Finally once the raw data transformed full we will make use Athena to get SQL analytical insights and quickSight to build a dashboard.  
+          In this Project we can learn about
+              - Building data lake from scratch
+              - understand data lake and data warehouse
+              - Good to have basic understanding about Azure Service
 
 ## Prerequisites
 
 Directions or anything needed before running the project.
 
 - Basic Knowledge on SQL and Python/PySpark
-- Azure Account
-- Good to have basic understanding about Azure Services
+- AWS Account
+- Good to have basic understanding about AWS Services
 
 ## How to Run This Project
 
 Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
 
-1. Place the data source in Github repositoy
-2. Setup Azure account (Free trial with credits)
+2. Setup AWS account
 
 ### Data Architecture
 
