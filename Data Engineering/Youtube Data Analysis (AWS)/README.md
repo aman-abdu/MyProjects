@@ -24,17 +24,16 @@ Directions or anything needed before running the project.
 
 Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
 
-2. Setup AWS account
 
-### Data Architecture
+### Architecture and Workflow
 
 ![Example architecture image](images/architecture.png)
 
-As per above Architecture, we have data source placed in Github repostiry, from there we ingest data into data alke storage using Azure Data factory by creating pipleines here we loading data as raw data, then we use Azure databricks to do soe basic transformation and clean the data. then we load transformed data/cleansed data to azure data lake storage. then we use Azure synapse analytics to get the clean data and perform some analytics using SQL queries, so we can create dashboards in Data analysis tools like Power BI or Tableau
-
-### End-to-End Data Pipeline
+As per above Architecture, we have data source placed in AWS S3 bucket, we use AWS Glue for performing ETL tasks, so we have placed raw data (JSON format) in frist S3 bucket inroder to fetch the data or read the data from S3 to AWS Glue, we need ot create crawler which will then create Glue data catalog on top of it resulting to create a database contain the data we placed in S3 into tabular format.
 
 ![alt-pipeline-image](images/snip3.png)
+
+We can't directly fetch the data from catalog, since the raw JSON data are in multiline format and nested key/value pair so we need to do some transformation before creating crawler this can be done using AWS lambda. Lambda is serverless compute which we can perform some transformation using programing language it supports(like Python). using Lmbda function, we are transforming/converting the JSON to parquet file format at the same time it will create table/database in AWS Glue. the transformed parquet file is then placed different S3 bucket which is in cleaned/cleansed data. once this is done we will be doing Glue studio to do simple ETL pipleine to join the cleaned table as shown below.
 
 ### Data Visualization
 
