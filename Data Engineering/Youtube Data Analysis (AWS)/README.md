@@ -37,7 +37,7 @@ We can't directly fetch the data from catalog, since the raw JSON data are in mu
 
 ### Data Visualization
 
-![alt-data-visuaization](images/etl_pipeline.png.png)
+![alt-data-visuaization](images/etl_pipeline.png)
 
 ![alt-data-visuaization](images/snip2.png)
 
