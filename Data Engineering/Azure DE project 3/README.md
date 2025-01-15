@@ -33,7 +33,7 @@ As per above Architecture, we have data source placed in Github repostiry, from 
 
 ### Data Visualization
 
-![alt-data-visuaization](images/snip1.png)
+![alt-data-visuaization](images/final_analysis.png)
 
 ![alt-data-visuaization](images/snip2.png)
 
