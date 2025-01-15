@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this Data Engineering Project, we have a data set of Olympic Sports from 2021 (Data source) and storing that data into Azure as raw data and perform the necessary Transformation and store the transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
+In this Data Engineering Project, we have a data set of Car Sales data as Data source, initial it loaded in github repository and we copy the data to SQL database with help of ETL pipeline in data factory. storing that data into Azure as raw data and perform the necessary Transformation and store the transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
 
 ## Prerequisites
 
