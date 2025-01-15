@@ -10,7 +10,7 @@ Directions or anything needed before running the project.
 
 - Basic Knowledge on SQL and Python/PySpark
 - Azure Account
-- Good to have basic understanding about Azure Services
+- Good to have basic understanding about Azure Services (ADF, databricks, data lake)
 
 ## How to Run This Project
 
