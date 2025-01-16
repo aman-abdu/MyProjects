@@ -2,22 +2,20 @@
 
 ## Overview
 
-In this Data Engineering Project, we have a data set of Car Sales data as Data source, initial it loaded in github repository and we copy the data to SQL database with help of ETL pipeline in data factory. storing that data into Azure as raw data and perform the necessary Transformation and store the transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
+In this End-to-End Data Engineering Project, we have a data set of Car Sales data as Data source, which is loaded in github repository and we then ingesst the data into SQL database with help of ETL pipeline in data factory. We will perform data transformation using databricks and this is achieved by following Medallion architecture to process and analyze car sales data. this project focuses on incremental data loading, SCD Type-1, star schema design to transform data to analytical-ready insights.
 
 ## Prerequisites
-
-Directions or anything needed before running the project.
 
 - Basic Knowledge on SQL and Python/PySpark
 - Azure Account
 - Good to have basic understanding about Azure Services (ADF, databricks, data lake)
 
-## How to Run This Project
+## Tools/Technologies Used
 
-Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
-
-1. Place the data source in Github repositoy
-2. Setup Azure account (Free trial with credits)
+1. Azure SQL Database -> Storing raw data from Github source
+2. Azure Data Factory -> Builting ETL pipelines
+3. Azure Databricks -> Data transformation
+4. Azure Data lake gen2 -> data storage and for transformation layers (Bronzr, Silver and Gold) 
 
 ### Data Architecture
 
