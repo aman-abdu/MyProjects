@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this End-to-End Data Engineering Project, we have a data set of Car Sales data as Data source, which is loaded in github repository and we then ingesst the data into SQL database with help of ETL pipeline in data factory. We will perform data transformation using databricks and this is achieved by following Medallion architecture to process and analyze car sales data. this project focuses on incremental data loading, SCD Type-1, star schema design to transform data to analytical-ready insights.
+In this End-to-End Data Engineering Project, we have a data set of Car Sales data as Data source, which is loaded in github repository and we then ingest the data into SQL database with help of ETL pipeline in data factory. We will perform data transformation using databricks and this is achieved by following Medallion architecture to process and analyze car sales data. this project focuses on incremental data loading, SCD Type-1, star schema design to transform data to analytical-ready insights.
 
 ## Prerequisites
 
@@ -21,7 +21,10 @@ In this End-to-End Data Engineering Project, we have a data set of Car Sales dat
 
 ![Example architecture image](images/architecture.png)
 
-As per above Architecture, we have data source placed in Github repostiry, from there we ingest data into data alke storage using Azure Data factory by creating pipleines here we loading data as raw data, then we use Azure databricks to do soe basic transformation and clean the data. then we load transformed data/cleansed data to azure data lake storage. then we use Azure synapse analytics to get the clean data and perform some analytics using SQL queries, so we can create dashboards in Data analysis tools like Power BI or Tableau
+- we have data source placed in Github repostiry, from there we ingest data to SQL database using Data factory which is capable of Incremental data loading.
+- Incremental Data loading ETL will then transfer the raw data into bronze layer container in Azure Data Lake gen2.
+- Then we use Azure databricks to perfrom the transformations and place accordingly in Silver and Gold layer of ADLS.
+- The final transformation into gold layer, we have implemented Star Schema, segregating one big table data into Fact and Dimension tables to ensure clean and analytical-ready datasets with SCD Type-1.
 
 ### End-to-End Data Pipeline
 
