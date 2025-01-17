@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this End-to-End Data Engineering Project, we have a data set of Car Sales data as Data source, which is loaded in github repository and we then ingest the data into SQL database with help of ETL pipeline in data factory. We will perform data transformation using databricks and this is achieved by following Medallion architecture to process and analyze car sales data. this project focuses on incremental data loading, SCD Type-1, star schema design to transform data to analytical-ready insights.
+In this End-to-End Data Engineering Project, we have a data set of Car Sales data as Data source, which is loaded in github repository and we then ingest the data into SQL database with help of ETL pipeline in data factory. We will perform data transformation using databricks and this is achieved by following Medallion architecture to process and analyze car sales data. this project focuses on incremental data loading, Slowly changing dimensional (SCD Type-1), star schema design to transform data to analytical-ready insights.
 
 ## Prerequisites
 
@@ -35,8 +35,6 @@ In this End-to-End Data Engineering Project, we have a data set of Car Sales dat
 ### Data Visualization
 
 ![alt-data-visuaization](images/final_analysis.png)
-
-![alt-data-visuaization](images/snip2.png)
 
 ## Lessons Learned
 
