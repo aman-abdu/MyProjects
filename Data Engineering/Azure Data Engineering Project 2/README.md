@@ -16,17 +16,19 @@ Directions or anything needed before running the project.
 
 Tools/Services Used: SQL Server, Azure Data Factory, Azure Synapse Analytics, Databricks, Azure KeyVault, Azure Active Directory, Power BI
 
-Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system, in this project i have data source from SQL Server database and we are perfroming all extraction, transformation, loading, analytics are done mostly using cloud (Azure)
+Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system, in this project i have data source from SQL Server database and we are perfroming all extraction, transformation, loading, analytics are done mostly using cloud (Azure)  
 
 ### Data Architecture
 
 ![Example architecture image](images/architecture.png)
 
-As per above Architecture, we have data source placed on premise SQL Server database, from there we make use Azure Data factory to get the data into Azure and copy into Azure Data lake storage, where same raw data first ingested into a bronze layer, then transformed into a silver layer, and then finally converted into a gold layer using Azure Databricks. Once the data is fully transformed and organized, it will be loaded into Azure Synapse Analytics, mirroring the original SQL database structure, using Synapse Analytics we can perform some analytics using SQL queries,and we can create dashboards in Visualization tools like Power BI.
+As per above Architecture, we have data source placed on premise SQL Server database, from there we make use Azure Data factory to get the data into Azure and copy into Azure Data lake storage. in this project, we are following Medallion Architecture with different layers (Bronze , Silver, Gold) of data transformation were in bronze layer has raw data placed in it and in the end fully transformed data will be ready in Gold layer.
 
 ### End-to-End Data Pipeline
 
 ![alt-pipeline-image](images/snip1.png)
+
+where same raw data first ingested into a bronze layer, then transformed into a silver layer, and then finally converted into a gold layer using Azure Databricks. Once the data is fully transformed and organized, it will be loaded into Azure Synapse Analytics, mirroring the original SQL database structure, using Synapse Analytics we can perform some analytics using SQL queries,and we can create dashboards in Visualization tools like Power BI.
 
 ### Data Visualization
 
