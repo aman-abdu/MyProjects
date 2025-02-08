@@ -23,7 +23,7 @@ Since this Project is compeletly cloud based, we don't need to any Program/Softw
 
 ![Example architecture image](images/arch.png)
 
-As per above Architecture, we have data source placed in Github repostiry, from there we ingest data into data alke storage using Azure Data factory by creating pipleines here we loading data as raw data, then we use Azure databricks to do soe basic transformation and clean the data. then we load transformed data/cleansed data to azure data lake storage. then we use Azure synapse analytics to get the clean data and perform some analytics using SQL queries, so we can create dashboards in Data analysis tools like Power BI or Tableau
+As per above Architecture, we have data source placed in Github repostiry, from there we ingest data into data lake storage using Azure Data factory by creating pipleines here we loading data as raw data, then we use Azure databricks to do some basic transformation and clean the data. then we load transformed data/cleansed data to azure data lake storage. then we use Azure synapse analytics to get the clean data and perform some analytics using SQL queries, so we can create dashboards in Data analysis tools like Power BI or Tableau
 
 ### End-to-End Data Pipeline
 
