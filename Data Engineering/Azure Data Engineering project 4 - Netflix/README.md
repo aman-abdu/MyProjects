@@ -1,4 +1,4 @@
-# Olympics Data engineering and analysis project
+# Azure Data Engineering Project - Netflix Dataset
 
 ## Overview
 
