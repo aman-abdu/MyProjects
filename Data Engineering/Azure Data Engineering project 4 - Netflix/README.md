@@ -29,13 +29,11 @@ During the final transformation from Silver to Gold, I have implemented Delta Li
 
 ### End-to-End Data Pipeline
 
-![alt-pipeline-image](images/snip3.png)
+![alt-pipeline-image](images/snip6.png)
 
-### Data Visualization
+![alt-data-visuaization](images/snip7.png)
 
-![alt-data-visuaization](images/snip1.png)
-
-![alt-data-visuaization](images/snip2.png)
+![alt-data-visuaization](images/snip4.png)
 
 ## Lessons Learned
 
