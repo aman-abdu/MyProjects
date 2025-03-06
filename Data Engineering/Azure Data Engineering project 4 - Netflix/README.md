@@ -12,12 +12,15 @@ Directions or anything needed before running the project.
 - Azure Account
 - Good to have basic understanding about Azure Data Services
 
-## How to Run This Project
+## Technologies Used
 
-Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
-
-1. Place the data source in Github repositoy 
-2. Setup Azure account (Free trial with credits)
+✅ Azure Data Factory (ADF) – Seamless data orchestration
+✅ Databricks – Data Processing Tool
+✅ Unity Catalog – Secure and scalable data governance
+✅ Delta Live Tables (DLT) – Automated pipeline magic
+✅ Apache Spark – for Data transformation, Aggregations
+✅ Delta Lake – Reliable and fast data lakehouse
+✅ Azure Data Lake – Scalable cloud storage
 
 ### Data Architecture
 
