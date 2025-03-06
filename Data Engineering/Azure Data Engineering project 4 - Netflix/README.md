@@ -2,21 +2,21 @@
 
 ## Overview
 
-In this Data Engineering Project, we have a data set of Olympic Sports from 2021 (Data source) and storing that data into Azure as raw data and perform the necessary Transformation and store the transformed data to a storage location, then we can do the Analytics/analysis of the transformed/cleaned data.
+In this Data Engineering Project, i have developed end-to-end ETL pipeline that transforms Netflix data from raw formats into high-quality, structured data, ready for advanced analytics, leveraging the Medallion Architecture and Delta Lake. I have also implemented increamental data loading in databricks using Autoloader.
 
 ## Prerequisites
 
 Directions or anything needed before running the project.
 
-- Basic Knowledge on SQL and Python/PySpark
+- Basic Knowledge on and Python/PySpark and SQL
 - Azure Account
-- Good to have basic understanding about Azure Services
+- Good to have basic understanding about Azure Data Services
 
 ## How to Run This Project
 
 Since this Project is compeletly cloud based, we don't need to any Program/Software to install in local system
 
-1. Place the data source in Github repositoy
+1. Place the data source in Github repositoy 
 2. Setup Azure account (Free trial with credits)
 
 ### Data Architecture
