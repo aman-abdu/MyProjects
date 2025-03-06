@@ -14,13 +14,13 @@ Directions or anything needed before running the project.
 
 ## Technologies Used
 
-✅ Azure Data Factory (ADF) – Seamless data orchestration
-✅ Databricks – Data Processing Tool
-✅ Unity Catalog – Secure and scalable data governance
-✅ Delta Live Tables (DLT) – Automated pipeline magic
-✅ Apache Spark – for Data transformation, Aggregations
-✅ Delta Lake – Reliable and fast data lakehouse
-✅ Azure Data Lake – Scalable cloud storage
+✅ Azure Data Factory (ADF) – Seamless data orchestration  
+✅ Databricks – Data Processing Tool  
+✅ Unity Catalog – Secure and scalable data governance  
+✅ Delta Live Tables (DLT) – Automated pipeline magic  
+✅ Apache Spark – for Data transformation, Aggregations  
+✅ Delta Lake – Reliable and fast data lakehouse  
+✅ Azure Data Lake – Scalable cloud storage  
 
 ### Data Architecture
 
