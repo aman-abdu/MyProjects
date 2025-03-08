@@ -2,7 +2,8 @@
 
 ## Overview
 
-In this Data Engineering Project, i have developed end-to-end ETL pipeline that transforms Netflix data from raw formats into high-quality, structured data, ready for advanced analytics, leveraging the Medallion Architecture and Delta Lake. I have also implemented increamental data loading in databricks using Autoloader.
+In this Data Engineering Project, I have developed end-to-end ETL pipeline which dynamicaly ingest multiple Netflix raw data from GitHub using API into landing zone in ADLS and we use Databricks Autloader to implement incremental loading as well. I have used databricks for data cleaning, aggregating into structured data, leveraging the Medallion Architecture and Delta Lake. Implemented Delta Live tables, DLT pipelines for final transformations which then carried out to Serving layer
+
 
 ## Prerequisites
 
