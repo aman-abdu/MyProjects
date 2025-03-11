@@ -37,6 +37,8 @@ During the final transformation from Silver to Gold, I have implemented Delta Li
 
 ![alt-data-visuaization](images/snip7.png)
 
+![alt-data-visuaization](images/snip8.png)
+
 ![alt-data-visuaization](images/snip4.png)
 
 ## Lessons Learned
