@@ -35,14 +35,20 @@ During the final transformation from Silver to Gold, I have implemented Delta Li
 
 ![alt-pipeline-image](images/snip6.png)
 
-![alt-data-visuaization](images/snip7.png)
+Above image shows the end to end pipeline created in Azure Data Factory, this will fetch data from Github using API dynamically. Implemented parametrized pipeline approache to get multiple data or files. with Web Activity we can get the file names and stored in Set Variable activity as Array and pass into ForEach activity which dynamicaly loop within file names to copy the files from Github to Azure Data lake. 
 
 ![alt-data-visuaization](images/snip8.png)
+
+Above image shows the Data Transformation perfromed from Bronze to Silver in Databricks.
+
+![alt-data-visuaization](images/snip7.png)
+
+Implementing Delta Live tables, as final transformation to Gold layer which is serving layer ready to perfom furthur Analysis. Make use of DLT pipelines to automate all the transformations.
 
 ![alt-data-visuaization](images/snip4.png)
 
 ## Lessons Learned
 
-It's good to reflect on what you learned throughout the process of building this project. Here you might discuss what you would have done differently if you had more time/money/data. Did you end up choosing the right tools or would you try something else next time?
+This Project gives me a good understanding of Data Engineering concepts, gained hands-on experience in Azure Data factory, Data Lake, Databricks, PySpark, Unity Catalog, Delta Live Tables.
 
 
