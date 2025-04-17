@@ -1,6 +1,6 @@
 ## THIS IS CURRENTLY IN DEVELOPMENT, WILL UPDATE THE DETAILS HERE SHORTLY.
 
-# Olympics Data engineering and analysis project
+
 
 ## Overview
 
