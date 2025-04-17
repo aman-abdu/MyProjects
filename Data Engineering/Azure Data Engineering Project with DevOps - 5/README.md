@@ -1,3 +1,5 @@
+## THIS IS CURRENTLY IN DEVELOPMENT, WILL UPDATE THE DETAILS HERE SHORTLY.
+
 # Olympics Data engineering and analysis project
 
 ## Overview
@@ -10,7 +12,7 @@ Directions or anything needed before running the project.
 
 - Basic Knowledge on SQL and Python/PySpark
 - Azure Account
-- Good to have basic understanding about Azure Services
+- Good to have basic understanding about Azure Data Services and Azure DevOps
 
 ## How to Run This Project
 
