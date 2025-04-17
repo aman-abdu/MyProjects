@@ -40,8 +40,5 @@ where same raw data first ingested into a bronze layer, then transformed into a 
 
 ## Lessons Learned
 
-It's good to reflect on what you learned throughout the process of building this project. Here you might discuss what you would have done differently if you had more time/money/data. Did you end up choosing the right tools or would you try something else next time?
+In this Project i have gained good understanding on Azure Data Services which mainly needed for Cloud Data Engineering, and hands-on experience as well. i'm Able to implement this project easily since i have good understanding of SQL and Python/PySpark. which i could complete this on my own.
 
-## Contact
-
-Please feel free to contact me if you have any questions at: LinkedIn, Twitter
