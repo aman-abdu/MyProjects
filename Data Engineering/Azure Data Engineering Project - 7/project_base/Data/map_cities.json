@@ -1,72 +1,62 @@
 [
   {
     "city_id": 1,
-    "city": "New York 2",
+    "city": "New York",
     "state": "NY",
-    "region": "Northeast",
-    "updated_at" : "2026-07-29T21:06:37.876+00:00"
+    "region": "Northeast"
   },
   {
     "city_id": 2,
-    "city": "Las Vegas 2",
+    "city": "Los Angelas",
     "state": "CA",
-    "region": "West",
-    "updated_at" : "2026-07-29T22:12:37.876+00:00"
+    "region": "West"
   },
   {
     "city_id": 3,
-    "city": "Chicago 2",
+    "city": "Chicago",
     "state": "IL",
-    "region": "Midwest",
-    "updated_at" : "2026-07-29T23:36:37.876+00:00"
+    "region": "Midwest"
   },
   {
     "city_id": 4,
-    "city": "Houston 2",
+    "city": "Houston",
     "state": "TX",
-    "region": "South",
-    "updated_at" : "2026-07-29T21:31:37.876+00:00"
+    "region": "South"
   },
   {
     "city_id": 5,
-    "city": "Phoenix 2",
+    "city": "Phoenix",
     "state": "AZ",
-    "region": "Southwest",
-    "updated_at" : "2026-07-29T20:46:37.876+00:00"
+    "region": "Southwest"
   },
   {
     "city_id": 6,
-    "city": "Philadelphia 2",
+    "city": "Philadelphia",
     "state": "PA",
-    "region": "Northeast",
-    "updated_at" : "2026-07-29T20:16:37.876+00:00"
+    "region": "Northeast"
   },
   {
     "city_id": 7,
-    "city": "San Antonio 2",
+    "city": "San Antonio",
     "state": "TX",
-    "region": "South",
-    "updated_at" : "2026-07-29T21:26:37.876+00:00"
+    "region": "South"
   },
   {
     "city_id": 8,
-    "city": "San Diego Old",
+    "city": "San Diego",
     "state": "CA",
-    "region": "West",
-    "updated_at" : "2026-07-29T20:28:37.876+00:00"
+    "region": "West"
   },
   {
     "city_id": 9,
-    "city": "Dallas 2",
+    "city": "Dallas",
     "state": "TX",
-    "region": "South",
-    "updated_at" : "2026-07-29T22:09:37.876+00:00"
+    "region": "South"
   },
   {
     "city_id": 10,
-    "city": "San Jose New",
+    "city": "San Jose",
     "state": "CA",
-    "region": "West",
-    "updated_at" : "2026-07-29T23:02:37.876+00:00"
+    "region": "West"
   }
 ]
